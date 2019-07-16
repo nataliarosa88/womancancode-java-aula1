@@ -16,8 +16,5 @@ public class HelloWorldController {
         return new StringBuilder().append("Hello ").append(name).toString();
     }
 
-    @GetMapping("/whichcolor/{color}")
-    public String whichColor(@PathVariable String color) {
-        return new StringBuilder().append("The color chosen is ").append(color).toString();
-    }
+
 }
